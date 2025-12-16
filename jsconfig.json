@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Assets/*": ["src/assets/*"],
+      "@Components/*": ["src/components/*"],
+      "@Ui/*": ["src/components/ui/*"],
+      "@Forms/*": ["src/components/forms/*"],
+      "@Config/*": ["src/config/*"],
+      "@Hooks/*": ["src/hooks/*"],
+      "@Layouts/*": ["src/layouts/*"],
+      "@Pages/*": ["src/pages/*"],
+      "@Routes/*": ["src/routes/*"],
+      "@Errors/*": ["src/pages/errors/*"],
+      "@Services/*": ["src/services/*"],
+      "@Stores/*": ["src/stores/*"],
+      "@Utils/*": ["src/utils/*"],
+    },
+    "jsx": "react"
+  },
+  "include": ["src"]
+}
