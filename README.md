@@ -24,7 +24,7 @@ This is a boilerplate for a React application with Tailwind CSS, Vite, and other
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/react-tailwind-boilerplate.git
+    git clone https://github.com/LeoLChalot/react-tailwind-boilerplate.git
     ```
 2.  Navigate to the project directory:
     ```bash
