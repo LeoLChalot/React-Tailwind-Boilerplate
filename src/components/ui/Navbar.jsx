@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, User, LogOut, Home, LogIn } from 'lucide-react';
+import Logo from '@Assets/react.svg';
 
 
 export default function Navbar() {
@@ -25,8 +26,8 @@ export default function Navbar() {
           {/* --- LOGO / TITRE --- */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-xl font-bold text-blue-600 flex items-center gap-2">
-              <span className="bg-blue-600 text-white p-1 rounded">JS</span>
-              MonApp
+              <img src={Logo} alt="Logo" className="h-8 w-8" />
+              ReactBoilerplate
             </Link>
           </div>
 
